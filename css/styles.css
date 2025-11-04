@@ -42,6 +42,7 @@ ul {
 
 .header-logo .logo-part {
     color: #2E2F42;
+    margin-right: 76px;
 }
 
 .head {
@@ -51,6 +52,11 @@ ul {
 }
 
 .head .head-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
     display: flex;
     align-items: center;
 }
