@@ -21,6 +21,8 @@ body {
 ul,
 ol {
     list-style-type: none;
+    padding-left: 0;
+    margin: 0;
 }
 
 a {
@@ -69,12 +71,11 @@ a {
     height: 72px;
 }
 
-
-.head .head-container {
+.header-container {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-}
+    align-items: center;
+} 
 
 .nav {
     display: flex;
@@ -244,13 +245,11 @@ a {
 .team-list {
     display: flex;
     gap: 24px;
-    list-style: none;
 }
 
 .team-item {
     width: calc((100%-72px) / 4);
     background-color: #ffffff;
-    text-align: center;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08);
 }
