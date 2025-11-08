@@ -12,7 +12,7 @@ body {
     box-sizing: border-box;
 }
 
-.head-container {
+.container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -251,7 +251,6 @@ a {
     width: calc((100%-72px) / 4);
     background-color: #ffffff;
     text-align: center;
-    padding-bottom: 32px;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -302,7 +301,7 @@ a {
 }
 
 .portfolio-item {
-    width: calc((100% - 48px) /3 );
+    width: calc((100% - 48px) / 3);
     display: block;
     background-color: #fff;
     border: 1px solid #e7e9fc;
