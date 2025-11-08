@@ -298,7 +298,7 @@ a {
 }
 
 .portfolio-item {
-    width: calc((100%-48px) / 3);
+    width: calc((100% - 48px) / 3);
     display: block;
     background-color: #fff;
     border: 1px solid #e7e9fc;
